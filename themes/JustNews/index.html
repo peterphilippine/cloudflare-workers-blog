@@ -8,7 +8,7 @@
 		<title>{{ &title }}</title>
 		<meta name="keywords" content="{{ &keyWords }}" />
 		<meta name="description" content="{{ &OPT.siteDescription }}" />
-
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 		<link rel='stylesheet' id='stylesheet-css' href='https://cdn.jsdelivr.net/gh/gdtool/cloudflare-workers-blog@master/themes/JustNews/files/main.css' type='text/css' media='all' />
 		<link rel='stylesheet' id='font-awesome-css' href='https://cdn.jsdelivr.net/gh/gdtool/cloudflare-workers-blog@master/themes/JustNews/files/font-awesome.css?ver=6.1.2' type='text/css' media='all' />
 		<link rel='stylesheet' id='wp-block-library-css' href='https://cdn.jsdelivr.net/gh/WordPress/WordPress@5.5.3/wp-includes/css/dist/block-library/style.min.css?ver=5.6' type='text/css' media='all' />
@@ -37,7 +37,7 @@
 					</button>
 					<div class="logo">
 						{{ #OPT.logo }}
-						<a href="/" rel="home"><img src="{{ &OPT.logo }}" alt="{{ &OPT.siteName }}"></a>
+						<a href="/" rel="home"><img src="{{ &OPT.logo }}" alt="{{ &OPT.siteName }}" class="rounded-circle"></a>
 						{{ /OPT.logo }}
 						
 						{{ ^OPT.logo }}
