@@ -9,6 +9,7 @@
 		<meta name="keywords" content="{{ &keyWords }}" />
 		<meta name="description" content="{{ &OPT.siteDescription }}" />
 
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/editor.md@1.5.0/css/editormd.css" />
 		<link rel='stylesheet' id='stylesheet-css' href='https://cdn.jsdelivr.net/gh/gdtool/cloudflare-workers-blog@master/themes/JustNews/files/main.css' type='text/css' media='all' />
 		<link rel='stylesheet' id='font-awesome-css' href='https://cdn.jsdelivr.net/gh/gdtool/cloudflare-workers-blog@master/themes/JustNews/files/font-awesome.css?ver=6.1.2' type='text/css' media='all' />
 		<link rel='stylesheet' id='wp-block-library-css' href='https://cdn.jsdelivr.net/gh/WordPress/WordPress@5.5.3/wp-includes/css/dist/block-library/style.min.css?ver=5.6' type='text/css' media='all' />
@@ -38,7 +39,7 @@
 					</button>
 					<div class="logo">
 						{{ #OPT.logo }}
-						<a href="/" rel="home"><img src="{{ &OPT.logo }}" alt="{{ &OPT.siteName }}"></a>
+						<a href="/" rel="home"><img src="{{ &OPT.logo }}" alt="{{ &OPT.siteName }}" class="rounded-circle"></a>
 						{{ /OPT.logo }}
 						
 						{{ ^OPT.logo }}
@@ -54,11 +55,6 @@
 							{{ /widgetMenuList }}
 						</ul>
 					</nav>
-					<div class="navbar-action pull-right">
-						<div id="j-user-wrap">
-							<a class="login cur" href="/admin">登录</a>
-						</div>
-					</div>
 				</div>
 			</div>
 		</header>
