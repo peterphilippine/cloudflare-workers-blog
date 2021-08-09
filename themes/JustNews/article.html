@@ -8,7 +8,11 @@
 		<title>{{ &articleSingle.title }} - {{ &OPT.siteName }}</title>
 		<meta name="keywords" content="{{ &keyWords }}" />
 		<meta name="description" content="{{ &OPT.siteDescription }}" />
-
+		
+		<link rel="icon" href="https://raw.githubusercontent.com/peterphilippine/cloudflare-workers-blog/master/themes/JustNews/files/taxuexunmei.jpg">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+		
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/editor.md@1.5.0/css/editormd.css" />
 		<link rel='stylesheet' id='stylesheet-css' href='https://cdn.jsdelivr.net/gh/gdtool/cloudflare-workers-blog@master/themes/JustNews/files/main.css' type='text/css' media='all' />
 		<link rel='stylesheet' id='font-awesome-css' href='https://cdn.jsdelivr.net/gh/gdtool/cloudflare-workers-blog@master/themes/JustNews/files/font-awesome.css?ver=6.1.2' type='text/css' media='all' />
@@ -28,7 +32,7 @@
 		<script src='https://cdn.staticfile.org/highlight.js/10.3.2/highlight.min.js'></script>
 		{{ &OPT.codeBeforHead }}
 	</head>
-	<body class="archive paged category category-zhishi category-5 paged-2 category-paged-2 lang-cn el-boxed">
+	<body class="archive paged category category-zhishi category-5 paged-2 category-paged-2 lang-cn el-boxed markdown-body editormd-preview-container">
 		<header class="header">
 			<div class="container clearfix">
 				<div class="navbar-header">
